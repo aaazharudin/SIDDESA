@@ -4,9 +4,9 @@
             <div class="span4">
                 <div class="widget">
                     <h5 class="widgetheading">Kategori</h5>
-                    <?php foreach ($kategori as $row) : ?>
+                    <?php foreach ($kategori as $row): ?>
                         <ul class="link-list">
-                            <li><a href="#"><?= $row['category']; ?></a></li>
+                            <li><a href="#"><?= $row['category'] ?></a></li>
                         </ul>
                     <?php endforeach; ?>
 
@@ -16,13 +16,13 @@
                 <div class="widget">
                     <h5 class="widgetheading">Alamat</h5>
                     <address>
-                        <strong>Kantor Desa Bahari</strong><br>
-                        Jl. Pantai Bahari, Desa Bahari, Kecamatan Sampolawa,<br>
-                        Kabupaten Buton Selatan. Kode Pos 93753. Indonesia
+                        <strong>Kantor Desa Sumbergayam</strong><br>
+                        Desa Sumbergayam, Kecamatan Kragan,<br>
+                        Kabupaten Rembang, Kodepos 59251. Indonesia
                     </address>
                     <p>
-                        <i class="icon-phone"></i> 0852-9262-6598 <br>
-                        <i class="icon-envelope-alt"></i> desabahari@gmail.com
+                        <i class="icon-phone"></i> 08- <br>
+                        <i class="icon-envelope-alt"></i> Sumbergayam@gmail.com
                     </p>
                 </div>
             </div>
@@ -47,7 +47,9 @@
             <div class="row">
                 <div class="span6">
                     <div class="copyright">
-                        <p><span>&copy; Copyright <?= date('Y'); ?>. Desa Bahari</span></p>
+                        <p><span>&copy; Copyright <?= date(
+                            'Y'
+                        ) ?>. Desa Sumbergayam</span></p>
                     </div>
                 </div>
             </div>
@@ -61,21 +63,35 @@
     ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="<?php echo base_url('public/'); ?>js/jquery.js"></script>
-<script src="<?php echo base_url('public/'); ?>js/jquery.easing.1.3.js"></script>
+<script src="<?php echo base_url(
+    'public/'
+); ?>js/jquery.easing.1.3.js"></script>
 <script src="<?php echo base_url('public/'); ?>js/bootstrap.js"></script>
 
 <script src="<?php echo base_url('public/'); ?>js/modernizr.custom.js"></script>
 <script src="<?php echo base_url('public/'); ?>js/toucheffects.js"></script>
-<script src="<?php echo base_url('public/'); ?>js/google-code-prettify/prettify.js"></script>
-<script src="<?php echo base_url('public/'); ?>js/jquery.bxslider.min.js"></script>
+<script src="<?php echo base_url(
+    'public/'
+); ?>js/google-code-prettify/prettify.js"></script>
+<script src="<?php echo base_url(
+    'public/'
+); ?>js/jquery.bxslider.min.js"></script>
 <script src="<?php echo base_url('public/'); ?>js/camera/camera.js"></script>
 <script src="<?php echo base_url('public/'); ?>js/camera/setting.js"></script>
 
-<script src="<?php echo base_url('public/'); ?>js/jquery.prettyPhoto.js"></script>
-<script src="<?php echo base_url('public/'); ?>js/portfolio/jquery.quicksand.js"></script>
-<script src="<?php echo base_url('public/'); ?>js/portfolio/setting.js"></script>
+<script src="<?php echo base_url(
+    'public/'
+); ?>js/jquery.prettyPhoto.js"></script>
+<script src="<?php echo base_url(
+    'public/'
+); ?>js/portfolio/jquery.quicksand.js"></script>
+<script src="<?php echo base_url(
+    'public/'
+); ?>js/portfolio/setting.js"></script>
 
-<script src="<?php echo base_url('public/'); ?>js/jquery.flexslider.js"></script>
+<script src="<?php echo base_url(
+    'public/'
+); ?>js/jquery.flexslider.js"></script>
 <script src="<?php echo base_url('public/'); ?>js/animate.js"></script>
 <script src="<?php echo base_url('public/'); ?>js/inview.js"></script>
 

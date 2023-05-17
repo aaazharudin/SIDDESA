@@ -1,7 +1,7 @@
 <div class="row">
     <footer class="clearfix" id="admin-footer">
-        <div class="pull-left"><b>Copyright </b>&copy; <?= date('Y'); ?></div>
-        <div class="pull-right">Desa Bahari</div>
+        <div class="pull-left"><b>Copyright </b>&copy; <?= date('Y') ?></div>
+        <div class="pull-right">Desa Sumbergayam</div>
     </footer>
 </div>
 </div>
@@ -13,13 +13,17 @@
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 
 <!-- Bootstrap js -->
-<script src="<?= base_url('assets/'); ?>vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="<?= base_url(
+    'assets/'
+) ?>vendor/bootstrap/js/bootstrap.min.js"></script>
 
 <!-- My Style js -->
 <script src="<?php echo base_url('assets/'); ?>js/style.js' ?>"></script>
 
 <!-- Chosen js -->
-<script src="<?php echo base_url('assets/'); ?>vendor/chosen/chosen.jquery.min.js"></script>
+<script src="<?php echo base_url(
+    'assets/'
+); ?>vendor/chosen/chosen.jquery.min.js"></script>
 <script type="text/javascript">
     var config = {
         '.chosen-select': {},
@@ -42,7 +46,9 @@
 </script>
 
 <!-- Summernote js -->
-<script src="<?php echo base_url('assets/'); ?>vendor/summernote/summernote.min.js"></script>
+<script src="<?php echo base_url(
+    'assets/'
+); ?>vendor/summernote/summernote.min.js"></script>
 <script type="text/javascript">
     $('.summernote').summernote({
         height: 200
@@ -61,7 +67,8 @@
 </script>
 
 <!-- Chart js -->
-<script src="<?php echo base_url() . 'assets/vendor/chartjs/Chart.min.js' ?>"></script>
+<script src="<?php echo base_url() .
+    'assets/vendor/chartjs/Chart.min.js'; ?>"></script>
 <script type="text/javascript">
     var ctx = document.getElementById('chartPenduduk').getContext('2d');
     var chart = new Chart(ctx, {

@@ -3,7 +3,6 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 class Galeri extends CI_Controller
 {
-
     public function __construct()
     {
         parent::__construct();
@@ -14,7 +13,7 @@ class Galeri extends CI_Controller
     {
         $kategori = $this->kategori_m;
         $data['kategori'] = $kategori->getAll();
-        $data['title'] = "Foto";
+        $data['title'] = 'Foto';
 
         $this->load->view('themes/header', $data);
         $this->load->view('themes/top-menu', $data);
@@ -28,7 +27,7 @@ class Galeri extends CI_Controller
     {
         $kategori = $this->kategori_m;
         $data['kategori'] = $kategori->getAll();
-        $data['title'] = "Video";
+        $data['title'] = 'Video';
 
         $this->load->view('themes/header', $data);
         $this->load->view('themes/top-menu', $data);

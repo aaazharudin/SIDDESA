@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row">
                 <div class="span6">
-                    <p class="topcontact"><i class="icon-google-plus"></i> desabahari@gmail.com</p>
+                    <p class="topcontact"><i class="icon-google-plus"></i> Pemerintah Desa Sumbergayam</p>
                 </div>
                 <div class="span6">
 
@@ -32,7 +32,11 @@
         <div class="row nomargin">
             <div class="span4">
                 <div class="logo">
-                    <a href="<?= base_url(); ?>"><img src="<?php echo base_url('public/'); ?>img/logobahari.png" alt="" /></a>
+                    <a href="<?= base_url() ?>"><img src="<?php echo base_url(
+    'public/'
+); ?>img/sumbergayam_logo.png" alt="" style="width: 30px; height: 35px"/>
+ <span style="display: inline-block; margin-left: 10px; font-size: 16px;">Desa Sumbergayam</span>
+                    </a>
                 </div>
             </div>
             <div class="span8">
@@ -41,22 +45,28 @@
                         <nav>
                             <ul class="nav topnav">
                                 <li class="active">
-                                    <a href="<?= base_url(); ?>"><i class="icon-home"></i> Home </a>
+                                    <a href="<?= base_url() ?>"><i class="icon-home"></i> Home </a>
                                 </li>
                                 <li class="dropdown">
                                     <a href="#">Profil <i class="icon-angle-down"></i></a>
                                     <ul class="dropdown-menu">
                                         <li class="dropdown"><a href="#">Profil Desa<i class="icon-angle-right"></i></a>
                                             <ul class="dropdown-menu sub-menu-level1">
-                                                <li><a href="<?php echo base_url('profil/desa'); ?>">Gambaran Umum Desa</a></li>
+                                                <li><a href="<?php echo base_url(
+                                                    'profil/desa'
+                                                ); ?>">Gambaran Umum Desa</a></li>
                                                 <li><a href="#">Sejarah Desa</a></li>
                                                 <li><a href="#">Visi dan Misi</a></li>
                                                 <li><a href="#">Potensi Desa</a></li>
                                                 <li><a href="#">Peta Wilayah Desa</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="<?php echo base_url('profil/pemdes'); ?>">Pemerintah Desa</a></li>
-                                        <li><a href="<?= base_url('profil/bpd'); ?>">BPD</a></li>
+                                        <li><a href="<?php echo base_url(
+                                            'profil/pemdes'
+                                        ); ?>">Pemerintah Desa</a></li>
+                                       <!--  <li><a href="<?= base_url(
+                                           'profil/bpd'
+                                       ) ?>">BPD</a></li> -->
                                     </ul>
                                 </li>
                                 <li class="dropdown">
@@ -68,19 +78,31 @@
                                         <li><a href="#">LPMD</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="<?= base_url('artikel'); ?>">Kabar Desa</a></li>
-                                <li><a href="<?= base_url('penduduk'); ?>">Penduduk </a></li>
+                                <li><a href="<?= base_url(
+                                    'artikel'
+                                ) ?>">Kabar Desa</a></li>
+                                <!-- <li><a href="<?= base_url(
+                                    'penduduk'
+                                ) ?>">Penduduk </a></li> -->
 
                                 <li class="dropdown">
                                     <a href="#">Galeri <i class="icon-angle-down"></i></a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="<?= base_url('galeri/foto'); ?>">Foto</a></li>
-                                        <li><a href="<?= base_url('galeri/video'); ?>">Video</a></li>
+                                        <li><a href="<?= base_url(
+                                            'galeri/foto'
+                                        ) ?>">Foto</a></li>
+                                        <li><a href="<?= base_url(
+                                            'galeri/video'
+                                        ) ?>">Video</a></li>
                                     </ul>
                                 </li>
 
-                                <li><a href="<?= base_url('download'); ?>">Download </a></li>
-                                <li><a href="<?= base_url('kontak'); ?>">Kontak </a></li>
+                                <li><a href="<?= base_url(
+                                    'download'
+                                ) ?>">Download </a></li>
+                                <li><a href="<?= base_url(
+                                    'kontak'
+                                ) ?>">Kontak </a></li>
                             </ul>
                         </nav>
                     </div>

@@ -3,7 +3,6 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 class Profil extends CI_Controller
 {
-
     public function __construct()
     {
         parent::__construct();
@@ -18,7 +17,7 @@ class Profil extends CI_Controller
         $profil = $this->profil_m;
         $data['menu'] = $menu->getAll();
         $data['gambaran_umum'] = $profil->getGambaranUmum();
-        $data['title'] = "Profil";
+        $data['title'] = 'Profil';
 
         $this->load->view('_partials/header', $data);
         $this->load->view('_partials/sidebar', $data);
@@ -35,7 +34,7 @@ class Profil extends CI_Controller
         $validation = $this->form_validation->set_rules($rules);
 
         if ($validation->run() == false) {
-            $data['title'] = "Profil";
+            $data['title'] = 'Profil';
             $data['menu'] = $menu->getAll();
             $data['profilDesa'] = $profil->getById($id);
             $this->load->view('_partials/header', $data);
@@ -45,7 +44,10 @@ class Profil extends CI_Controller
             $this->load->view('_partials/footer');
         } else {
             $profil->updateProfilDesa();
-            $this->session->set_flashdata('message', '<div class="alert alert-success" role="alert">profil desa berhasil diupdate!</div>');
+            $this->session->set_flashdata(
+                'message',
+                '<div class="alert alert-success" role="alert">profil desa berhasil diupdate!</div>'
+            );
             redirect('admin/profil/desa');
         }
     }
@@ -56,7 +58,7 @@ class Profil extends CI_Controller
         $profil = $this->profil_m;
         $data['menu'] = $menu->getAll();
         $data['profilPemdes'] = $profil->getProfilPemdes();
-        $data['title'] = "Profil";
+        $data['title'] = 'Profil';
 
         $this->load->view('_partials/header', $data);
         $this->load->view('_partials/sidebar', $data);
@@ -73,7 +75,7 @@ class Profil extends CI_Controller
         $validation = $this->form_validation->set_rules($rules);
 
         if ($validation->run() == false) {
-            $data['title'] = "Profil";
+            $data['title'] = 'Profil';
             $data['menu'] = $menu->getAll();
             $data['profilPemdes'] = $profil->getById($id);
             $this->load->view('_partials/header', $data);
@@ -83,7 +85,10 @@ class Profil extends CI_Controller
             $this->load->view('_partials/footer');
         } else {
             $profil->updateProfilPemdes();
-            $this->session->set_flashdata('message', '<div class="alert alert-success" role="alert">Profil pemerintah desa berhasil diupdate!</div>');
+            $this->session->set_flashdata(
+                'message',
+                '<div class="alert alert-success" role="alert">Profil pemerintah desa berhasil diupdate!</div>'
+            );
             redirect('admin/profil/pemdes');
         }
     }
@@ -94,7 +99,7 @@ class Profil extends CI_Controller
         $profil = $this->profil_m;
         $data['menu'] = $menu->getAll();
         $data['profilBpd'] = $profil->getProfilBpd();
-        $data['title'] = "Profil";
+        $data['title'] = 'Profil';
 
         $this->load->view('_partials/header', $data);
         $this->load->view('_partials/sidebar', $data);
@@ -111,7 +116,7 @@ class Profil extends CI_Controller
         $validation = $this->form_validation->set_rules($rules);
 
         if ($validation->run() == false) {
-            $data['title'] = "Profil";
+            $data['title'] = 'Profil';
             $data['menu'] = $menu->getAll();
             $data['profilBpd'] = $profil->getById($id);
             $this->load->view('_partials/header', $data);
@@ -121,7 +126,10 @@ class Profil extends CI_Controller
             $this->load->view('_partials/footer');
         } else {
             $profil->updateProfilBpd();
-            $this->session->set_flashdata('message', '<div class="alert alert-success" role="alert">profil BPD berhasil diupdate!</div>');
+            $this->session->set_flashdata(
+                'message',
+                '<div class="alert alert-success" role="alert">profil BPD berhasil diupdate!</div>'
+            );
             redirect('admin/profil/bpd');
         }
     }

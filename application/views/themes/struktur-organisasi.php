@@ -3,7 +3,7 @@
     <div class="row animated-slow flyIn">
         <div class="span12">
             <div class="aligncenter">
-                <h3>Struktur Organisasi <strong>Pemerintah Desa Bahari</strong></h3>
+                <h3>Struktur Organisasi <strong>Pemerintah Desa Sumbergayam</strong></h3>
                 <p></p>
             </div>
         </div>
@@ -28,8 +28,10 @@
 
                             <!-- Item Project and Filter Name -->
                             <li class="item-thumbs span3 kades" data-id="id-0" data-type="kades">
-                                <div class="team-box thumbnail animated-slow flyIn">
-                                    <img src="<?php echo base_url('public/'); ?>img/pemdes/kades.jpg" alt="" />
+                               <!--  <div class="team-box thumbnail animated-slow flyIn">
+                                    <img src="<?php echo base_url(
+                                        'public/'
+                                    ); ?>img/pemdes/kades.jpg" alt="" />
                                     <div class="caption">
                                         <h5>LA JIDI</h5>
                                         <p>KEPALA DESA</p>
@@ -51,14 +53,16 @@
                                             </li>
                                         </ul>
                                     </div>
-                                </div>
+                                </div> -->
                             </li>
                             <!-- End Item Project -->
 
                             <!-- Item Project and Filter Name -->
                             <li class="item-thumbs span3 sekdes" data-id="id-1" data-type="sekdes">
-                                <div class="team-box thumbnail animated-slow flyIn">
-                                    <img src="<?php echo base_url('public/'); ?>img/pemdes/sekdes.jpg" alt="" />
+                               <!--  <div class="team-box thumbnail animated-slow flyIn">
+                                    <img src="<?php echo base_url(
+                                        'public/'
+                                    ); ?>img/pemdes/sekdes.jpg" alt="" />
                                     <div class="caption">
                                         <h5>MURDINI, S.I.P.</h5>
                                         <p>SEKRETARIS DESA</p>
@@ -80,14 +84,16 @@
                                             </li>
                                         </ul>
                                     </div>
-                                </div>
+                                </div> -->
                             </li>
                             <!-- End Item Project -->
 
                             <!-- Item Project and Filter Name -->
                             <li class="item-thumbs span3 kasi" data-id="id-2" data-type="kaur">
-                                <div class="team-box thumbnail animated-slow flyIn">
-                                    <img src="<?php echo base_url('public/'); ?>img/pemdes/keuangan.jpg" alt="" />
+                                <!-- <div class="team-box thumbnail animated-slow flyIn">
+                                    <img src="<?php echo base_url(
+                                        'public/'
+                                    ); ?>img/pemdes/keuangan.jpg" alt="" />
                                     <div class="caption">
                                         <h5>KARMAN K.</h5>
                                         <p>KAUR PEMBANGUNAN</p>
@@ -109,14 +115,16 @@
                                             </li>
                                         </ul>
                                     </div>
-                                </div>
+                                </div> -->
                             </li>
                             <!-- End Item Project -->
 
                             <!-- Item Project and Filter Name -->
                             <li class="item-thumbs span3 kasi" data-id="id-0" data-type="kaur">
-                                <div class="team-box thumbnail animated-slow flyIn">
-                                    <img src="<?php echo base_url('public/'); ?>img/pemdes/umum.jpg" alt="" />
+                                <!-- <div class="team-box thumbnail animated-slow flyIn">
+                                    <img src="<?php echo base_url(
+                                        'public/'
+                                    ); ?>img/pemdes/umum.jpg" alt="" />
                                     <div class="caption">
                                         <h5>SUDIRYANTO</h5>
                                         <p>KAUR UMUM & PERENCANAAN</p>
@@ -138,14 +146,16 @@
                                             </li>
                                         </ul>
                                     </div>
-                                </div>
+                                </div> -->
                             </li>
                             <!-- End Item Project -->
 
                             <!-- Item Project and Filter Name -->
                             <li class="item-thumbs span3 kaur" data-id="id-4" data-type="kasi">
-                                <div class="team-box thumbnail animated-slow flyIn">
-                                    <img src="<?php echo base_url('public/'); ?>img/pemdes/pemerintahan.jpg" alt="" />
+                                <!-- <div class="team-box thumbnail animated-slow flyIn">
+                                    <img src="<?php echo base_url(
+                                        'public/'
+                                    ); ?>img/pemdes/pemerintahan.jpg" alt="" />
                                     <div class="caption">
                                         <h5>LA ODE HARIMU</h5>
                                         <p>KASI PEMERINTAHAN</p>
@@ -167,14 +177,16 @@
                                             </li>
                                         </ul>
                                     </div>
-                                </div>
+                                </div> -->
                             </li>
                             <!-- End Item Project -->
 
                             <!-- Item Project and Filter Name -->
                             <li class="item-thumbs span3 kaur" data-id="id-5" data-type="kasi">
-                                <div class="team-box thumbnail animated-slow flyIn">
-                                    <img src="<?php echo base_url('public/'); ?>img/pemdes/kesra.jpg" alt="" />
+                               <!--  <div class="team-box thumbnail animated-slow flyIn">
+                                    <img src="<?php echo base_url(
+                                        'public/'
+                                    ); ?>img/pemdes/kesra.jpg" alt="" />
                                     <div class="caption">
                                         <h5>DISMAN</h5>
                                         <p>KASI KESRA & PELAYANAN</p>
@@ -196,13 +208,15 @@
                                             </li>
                                         </ul>
                                     </div>
-                                </div>
+                                </div> -->
                             </li>
                             <!-- End Item Project -->
 
                             <li class="item-thumbs span3 kadus" data-id="id-0" data-type="kadus">
-                                <div class="team-box thumbnail animated-slow flyIn">
-                                    <img src="<?php echo base_url('public/'); ?>img/pemdes/ngapaompu.jpg" alt="" />
+                                <!-- <div class="team-box thumbnail animated-slow flyIn">
+                                    <img src="<?php echo base_url(
+                                        'public/'
+                                    ); ?>img/pemdes/ngapaompu.jpg" alt="" />
                                     <div class="caption">
                                         <h5>LA RUO, S.Ag.</h5>
                                         <p>KADUS NGAPAOMPU</p>
@@ -224,16 +238,18 @@
                                             </li>
                                         </ul>
                                     </div>
-                                </div>
+                                </div> -->
                             </li>
                             <!-- End Item Project -->
 
                             <!-- Item Project and Filter Name -->
                             <li class="item-thumbs span3 kadus" data-id="id-0" data-type="kadus">
-                                <div class="team-box thumbnail animated-slow flyIn">
-                                    <img src="<?php echo base_url('public/'); ?>img/pemdes/wapulaka.jpg" alt="" />
-                                    <div class="caption">
-                                        <h5>LA BAMA</h5>
+                               <!--  <div class="team-box thumbnail animated-slow flyIn">
+                                    <img src="<?php echo base_url(
+                                        'public/'
+                                    ); ?>img/pemdes/wapulaka.jpg" alt="" />
+                                    <div class="caption"> -->
+                                       <!--  <h5>LA BAMA</h5>
                                         <p>KADUS WAPULAKA</p>
                                         <ul class="social-network">
                                             <li>
@@ -253,7 +269,7 @@
                                             </li>
                                         </ul>
                                     </div>
-                                </div>
+                                </div> -->
                             </li>
                             <!-- End Item Project -->
 

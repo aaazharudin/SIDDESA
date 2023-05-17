@@ -9,9 +9,11 @@
                     Websitenya lumayan bagus, tapi dikembangkan lagi supaya lebih powerfull..
                 </blockquote>
                 <div class="testimonial-autor">
-                    <img src="<?php echo base_url('public/'); ?>img/dummies/testimonial/1.png" alt="" />
+                    <img src="<?php echo base_url(
+                        'public/'
+                    ); ?>img/dummies/testimonial/1.png" alt="" />
                     <h4>Kang</h4>
-                    <a href="#">http://dismaninfo.wordpress.com</a>
+                    <a href="#">http://aaazharudin.wordpress.com</a>
                 </div>
             </li>
             <li>
@@ -19,9 +21,11 @@
                     Segera diselesaikan Websitenya supaya informasi desanya lebih mudah diakses
                 </blockquote>
                 <div class="testimonial-autor">
-                    <img src="<?php echo base_url('public/'); ?>img/dummies/testimonial/2.png" alt="" />
+                    <img src="<?php echo base_url(
+                        'public/'
+                    ); ?>img/dummies/testimonial/2.png" alt="" />
                     <h4>Kang</h4>
-                    <a href="#">http://dismaninfo.wordpress.com</a>
+                    <a href="#">http://aaazharudin.wordpress.com</a>
                 </div>
             </li>
             <li>
@@ -29,9 +33,11 @@
                     Website ini dikembangkan menggunakan Framework Codeigniter dan Bootstrap css
                 </blockquote>
                 <div class="testimonial-autor">
-                    <img src="<?php echo base_url('public/'); ?>img/dummies/testimonial/3.png" alt="" />
+                    <img src="<?php echo base_url(
+                        'public/'
+                    ); ?>img/dummies/testimonial/3.png" alt="" />
                     <h4>Kang</h4>
-                    <a href="#">http://dismaninfo.wordpress.com</a>
+                    <a href="#">http://aaazharudin.wordpress.com</a>
                 </div>
             </li>
         </ul>
